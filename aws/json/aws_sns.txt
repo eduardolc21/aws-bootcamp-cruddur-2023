@@ -1,0 +1,4 @@
+aws sns subscribe \
+    --topic-arn="arn:aws:sns:us-east-1:218722930760:billing-alarm" \
+    --protocol=email \
+    --notification-endpoint=eduardolc21@gmail.com
